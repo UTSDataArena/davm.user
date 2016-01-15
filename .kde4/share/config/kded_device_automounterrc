@@ -1,0 +1,10 @@
+[Devices][/org/freedesktop/UDisks2/block_devices/sda1]
+Icon=drive-harddisk
+LastNameSeen=linux-boot
+LastSeenMounted=false
+
+[Devices][/org/freedesktop/UDisks2/block_devices/sda4]
+EverMounted=true
+Icon=drive-harddisk
+LastNameSeen=linux-root
+LastSeenMounted=true
