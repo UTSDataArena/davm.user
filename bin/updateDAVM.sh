@@ -30,7 +30,7 @@ cd /local/davmdoc && make html
 
 cd
 
-killall ssh-agent ssh-add
+killall ssh-agent
 
 echo "Done updating"
 
