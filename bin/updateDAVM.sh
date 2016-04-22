@@ -28,6 +28,16 @@ done
 
 cd /local/davmdoc && make html
 
+# Update config files from home directory
+cd /tmp
+
+git clone git@codeine.research.uts.edu.au:da/davm.user.git
+rsync -av davm.user/ /home/davm/
+
+# Remove copied files
+rm -rf /home/davm/.git
+rm -rf /tmp/davm.user
+
 cd
 
 killall ssh-agent
