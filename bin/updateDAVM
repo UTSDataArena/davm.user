@@ -2,6 +2,16 @@
 
 # This script updates all the Data Arena Virtual Machine-related repositories
 # [Darren 22Jan16]
+#
+# Added updating home directory and etc files
+# [Darren 22Apr16]
+
+# check that this script is run as root
+if (( $EUID != 0 )); then
+	echo "Please run $0 as root, ie. 'sudo $0'"
+	exit
+fi
+
 
 cd
 
@@ -26,21 +36,33 @@ do
 	fi
 done
 
+# regenerate documentation
 cd /local/davmdoc && make html
 
 # Update config files from home directory
 cd /tmp
 
 git clone git@codeine.research.uts.edu.au:da/davm.user.git
-rsync -av davm.user/ /home/davm/
+rsync -av --chown=davm:davm davm.user/ /home/davm/
 
 # Remove copied files
-rm -rf /home/davm/.git
-rm -rf /tmp/davm.user
+/bin/rm -rf /home/davm/.git
+/bin/rm -rf /tmp/davm.user
+
+# update etc files
+git clone git@codeine.research.uts.edu.au:da/davm.etc.git
+cd /tmp/davm.etc
+
+rsync -av /tmp/davm.etc/etc/ /etc/
+# pull in skel files for a user?
+# rsync -av --chown=davm:davm /etc/skel/.bash* /home/davm/
+
+# Remove copied files
+/bin/rm -rf /tmp/davm.etc
 
 cd
 
 killall ssh-agent
 
-echo "Done updating"
+echo "Done updating, please log out then in again"
 
