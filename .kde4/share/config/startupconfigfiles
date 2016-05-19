@@ -1,4 +1,4 @@
-kcminputrc Mouse cursorTheme 'Oxygen_White'
+kcminputrc Mouse cursorTheme '#kde_legacy#'
 !/home/davm/.kde4/share/config/kcminputrc
 !/usr/share/config/kcminputrc
 *

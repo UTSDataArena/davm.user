@@ -1,5 +1,5 @@
 #! /bin/sh
-# kcminputrc Mouse cursorTheme 'Oxygen_White'
+# kcminputrc Mouse cursorTheme '#kde_legacy#'
 kcminputrc_mouse_cursortheme='#kde_legacy#'
 # kcminputrc Mouse cursorSize ''
 kcminputrc_mouse_cursorsize=''

@@ -1,4 +1,4 @@
-kcminputrc Mouse cursorTheme 'Oxygen_White'
+kcminputrc Mouse cursorTheme '#kde_legacy#'
 kcminputrc Mouse cursorSize ''
 ksplashrc KSplash Theme Default
 ksplashrc KSplash Engine KSplashX
