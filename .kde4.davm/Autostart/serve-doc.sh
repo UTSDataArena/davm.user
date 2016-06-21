@@ -1,3 +1,3 @@
 #!/bin/bash
 
-/local/davmdoc/serve.sh
+/local/davm.doc/serve.sh
