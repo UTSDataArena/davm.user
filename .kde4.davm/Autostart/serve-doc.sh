@@ -1,3 +1,8 @@
 #!/bin/bash
 
-/local/davm.doc/serve.sh
+#old Doc
+# /local/davm.doc/serve.sh
+
+# new wordpress Docs
+/home/davm/wordpress*/ctlscript.sh start
+
