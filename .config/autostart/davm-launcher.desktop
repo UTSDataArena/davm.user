@@ -1,5 +1,0 @@
-[Desktop Entry]
-Name=DAVM Demo Launcher 
-Exec=/local/examples/launcher/serve.sh &
-Type=Application
-Terminal=false
