@@ -1,0 +1,15 @@
+[General]
+screenCount=1
+
+[LegacySession: saved at previous logout]
+count=0
+
+[Session: saved at previous logout]
+clientId1=106461766d000148062866800000037750000
+count=1
+discardCommand1[$e]=rm,$HOME/.config/session/kwin_106461766d000148062866800000037750000_1480629404_29903
+program1=kwin_x11
+restartCommand1=kwin_x11,-session,106461766d000148062866800000037750000_1480629404_29903
+restartStyleHint1=0
+userId1=davm
+wasWm1=true
