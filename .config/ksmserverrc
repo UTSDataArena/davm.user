@@ -1,4 +1,5 @@
 [General]
+loginMode=default
 screenCount=1
 
 [LegacySession: saved at previous logout]
