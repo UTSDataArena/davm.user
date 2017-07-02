@@ -104,5 +104,5 @@ DialogWidth=720
 [Containments][9][Wallpaper][org.kde.image][General]
 FillMode=1
 Image=file:///home/davm/banner.jpeg
-height=600
-width=800
+height=1920
+width=1080
