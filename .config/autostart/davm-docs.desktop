@@ -1,5 +1,5 @@
 [Desktop Entry]
 Name=DAVM Docs
-Exec=sleep 2; kstart5 --maximize firefox-bin http://localhost/wordpress
+Exec=sleep 2; kstart5 firefox-bin http://localhost/wordpress
 Type=Application
 Terminal=false
