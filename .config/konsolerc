@@ -1,9 +1,12 @@
 [Desktop Entry]
-DefaultProfile=
+DefaultProfile=Profile 2.profile
 
 [Favorite Profiles]
 Favorites=
 
+[KonsoleWindow]
+SaveGeometryOnExit=false
+
 [MainWindow]
-State=AAAA/wAAAAD9AAAAAAAAAoAAAAHCAAAABAAAAAQAAAAIAAAACPwAAAAA
+State=AAAA/wAAAAD9AAAAAAAABGIAAASuAAAABAAAAAQAAAAIAAAACPwAAAAA
 ToolBarsMovable=Disabled

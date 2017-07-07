@@ -20,6 +20,35 @@ location=4
 plugin=org.kde.panel
 wallpaperplugin=org.kde.image
 
+[Containments][1][Applets][14]
+immutability=1
+plugin=org.kde.plasma.icon
+
+[Containments][1][Applets][14][Configuration][General]
+url=file:///usr/share/applications/org.kde.konsole.desktop
+
+[Containments][1][Applets][15]
+immutability=1
+plugin=org.kde.plasma.panelspacer
+
+[Containments][1][Applets][15][Configuration][General]
+length=55
+
+[Containments][1][Applets][16]
+immutability=1
+plugin=org.kde.plasma.lock_logout
+
+[Containments][1][Applets][17]
+immutability=1
+plugin=org.kde.plasma.icon
+
+[Containments][1][Applets][17][Configuration][General]
+url=file:///usr/share/applications/firefox-bin.desktop
+
+[Containments][1][Applets][18]
+immutability=1
+plugin=org.kde.plasma.systemloadviewer
+
 [Containments][1][Applets][2]
 immutability=1
 plugin=org.kde.plasma.kickoff
@@ -52,8 +81,12 @@ SystrayContainmentId=6
 immutability=1
 plugin=org.kde.plasma.digitalclock
 
+[Containments][1][ConfigDialog]
+DialogHeight=84
+DialogWidth=1864
+
 [Containments][1][General]
-AppletOrder=2;3;4;5;7
+AppletOrder=2;17;14;15;4;3;5;18;7;16
 
 [Containments][6]
 activityId=
@@ -101,8 +134,14 @@ wallpaperplugin=org.kde.image
 DialogHeight=540
 DialogWidth=720
 
+[Containments][9][General]
+pressToMoveHelp=false
+
 [Containments][9][Wallpaper][org.kde.image][General]
 FillMode=1
 Image=file:///home/davm/banner.jpeg
-height=1080
-width=1920
+height=1322
+width=1864
+
+[General]
+immutability=2

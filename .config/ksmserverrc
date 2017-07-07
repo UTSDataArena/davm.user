@@ -1,8 +1,15 @@
 [General]
-loginMode=default
+confirmLogout=true
+excludeApps=
+loginMode=restoreSavedSession
+offerShutdown=true
 screenCount=1
+shutdownType=0
 
 [LegacySession: saved at previous logout]
+count=0
+
+[LegacySession: saved by user]
 count=0
 
 [Session: saved at previous logout]
@@ -14,3 +21,31 @@ restartCommand1=kwin_x11,-session,106461766d000148062866800000037750000_14806294
 restartStyleHint1=0
 userId1=davm
 wasWm1=true
+
+[Session: saved by user]
+clientId1=106461766d000149939394300000036800004
+clientId2=106461766d000149939394400000036800006
+clientId3=106461766d000149939394400000036800007
+clientId4=106461766d000149939394600000036800009
+count=4
+discardCommand1[$e]=rm,$HOME/.config/session/kwin_106461766d000149939394300000036800004_1499397048_125217
+program1=kwin_x11
+program2=/usr/lib64/libexec/org_kde_powerdevil
+program3=pulseaudio
+program4=firefox
+restartCommand1=kwin_x11,-session,106461766d000149939394300000036800004_1499397048_125217
+restartCommand2=/usr/lib64/libexec/org_kde_powerdevil,-session,106461766d000149939394400000036800006_1499397048_88025
+restartCommand3=
+restartCommand4=/opt/firefox/firefox,--sm-client-id,106461766d000149939394600000036800009
+restartStyleHint1=0
+restartStyleHint2=0
+restartStyleHint3=0
+restartStyleHint4=0
+userId1=davm
+userId2=davm
+userId3=davm
+userId4=davm
+wasWm1=true
+wasWm2=false
+wasWm3=false
+wasWm4=false

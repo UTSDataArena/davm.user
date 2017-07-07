@@ -1,5 +1,20 @@
 [KFileDialog Settings]
 Recent Files[$e]=banner.jpeg,file:$HOME/banner.jpeg
 
+[PlasmaRunnerManager]
+pluginWhiteList=services,places,shell,bookmarks,recentdocuments,locations,baloosearch
+
+[PlasmaViews][Panel 1][Horizontal1864]
+thickness=46
+
+[PlasmaViews][Panel 1][Horizontal1904]
+thickness=30
+
+[PlasmaViews][Panel 1][Horizontal3816]
+thickness=50
+
+[ScreenConnectors]
+0=VGA-1
+
 [Updates]
 performed=/usr/share/plasma/shells/org.kde.plasma.desktop/contents/updates/obsolete_kickoffrc.js
