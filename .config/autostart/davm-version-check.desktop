@@ -1,5 +1,5 @@
 [Desktop Entry]
 Name=DAVM Version Check 
-Exec=sleep 3; kstart5 /local/updateDAVM/checkVersion
+Exec=sleep 5; kstart5 /local/bin/checkVersion
 Type=Application
 Terminal=false
