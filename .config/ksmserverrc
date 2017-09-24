@@ -19,7 +19,7 @@ discardCommand1[$e]=rm,$HOME/.config/session/kwin_106461766d00014806286680000003
 program1=kwin_x11
 restartCommand1=kwin_x11,-session,106461766d000148062866800000037750000_1480629404_29903
 restartStyleHint1=0
-userId1=davm
+userId1=dauser
 wasWm1=true
 
 [Session: saved by user]
@@ -41,10 +41,10 @@ restartStyleHint1=0
 restartStyleHint2=0
 restartStyleHint3=0
 restartStyleHint4=0
-userId1=davm
-userId2=davm
-userId3=davm
-userId4=davm
+userId1=dauser
+userId2=dauser
+userId3=dauser
+userId4=dauser
 wasWm1=true
 wasWm2=false
 wasWm3=false
