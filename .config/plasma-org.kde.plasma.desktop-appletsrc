@@ -139,7 +139,7 @@ pressToMoveHelp=false
 
 [Containments][9][Wallpaper][org.kde.image][General]
 FillMode=1
-Image=file:///home/dauser/banner.jpeg
+Image=file:///home/davm/banner.jpeg
 height=1322
 width=1864
 
